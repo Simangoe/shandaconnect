@@ -30,7 +30,7 @@ class HomePage extends StatelessWidget {
             width: 200,
           ),
           RoundedButton(
-              colour: Color.fromARGB(110, 52, 87, 130),
+              colour: const Color.fromARGB(110, 52, 87, 130),
               title: 'signin',
               onPressed: () {}),
           Expanded(flex: 1, child: Container()),
