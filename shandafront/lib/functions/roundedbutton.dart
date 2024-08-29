@@ -18,6 +18,8 @@ class RoundedButton extends StatelessWidget {
         color: colour,
         borderRadius: BorderRadius.circular(15.0),
         child: MaterialButton(
+          splashColor: Colors.transparent,
+          highlightColor: Colors.transparent,
           onPressed: onPressed,
           //Go to login screen.
           minWidth: 190.0,

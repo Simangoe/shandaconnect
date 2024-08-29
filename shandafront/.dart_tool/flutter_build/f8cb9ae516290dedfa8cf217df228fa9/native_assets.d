@@ -1,1 +1,0 @@
- C:\\Users\\Simango\\Desktop\\Production_Software\\shandaconnect\\.dart_tool\\flutter_build\\f8cb9ae516290dedfa8cf217df228fa9\\native_assets.yaml: 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../functions/textfield.dart';
 import '../functions/roundedbutton.dart';
-import 'findjob.dart';
+import 'findjobpage.dart';
 
 class SignIn extends StatelessWidget {
   const SignIn({super.key});
@@ -69,8 +69,10 @@ class SignIn extends StatelessWidget {
               colour: const Color.fromARGB(110, 52, 87, 130),
               title: 'LogIn',
               onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => const FindJob()));
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const FindJobPage()));
               }),
           Expanded(flex: 0, child: Container()),
           Row(children: [
